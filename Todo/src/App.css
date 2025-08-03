@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.container{
+  background:linear-gradient(to bottom right,slategray,white,slategray);
+font-size: 12px;
+   font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+  border-radius: 999px;
+}
+
+.main
+{
+  background: linear-gradient(to right bottom,slategray,white,slategray,white,slategray,white,slategray,white);
+  margin: 40px 100px;
+  height: 100vh;
+  border-radius: 40px;
+   width: 80%; /* Default width for desktop or larger screens */
+  margin: 0 auto;
+  overflow-y:auto;
+}
+
+.add{
+  position: absolute;
+  margin: 30px;
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+input{
+  font-size: 20px;
+  width: 60vw;
+  border-radius: 999px;
+}
+
+.addbranch{
+  display: flex;
+  gap: 10px;
+  color: black;
+}
+
+button{
+  background-color: slategrey;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+button:hover{
+   background-color: rgb(129, 139, 149);
+}
+
+.todoflex{
+  display: flex;
+gap: 15px
+;
+font-size: 24px;
+margin-top: 20px;
+justify-content: space-between;
+ word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+
+.buttons
+{
+  display: flex;
+  gap: 10px;
+  float: right;
+}
+
+.edit{
+  width: 30px;
+  height: 30px;
+
+}
+
+.del{
+  width: 30px;
+  height: 30px;
+
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0; /* Remove auto margin to avoid spacing on sides */
+  }
+}

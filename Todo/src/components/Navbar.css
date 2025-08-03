@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;padding: 0;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    
+    margin: 10px;
+     font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+li:hover{
+    font-size: 22px;
+    transition: all;
+    transition-duration: .2s;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 85%;
+    gap: 18px;
+   font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Nav{
+    background-color: slategray;
+    color: white;
+    display: flex;
+}
+
